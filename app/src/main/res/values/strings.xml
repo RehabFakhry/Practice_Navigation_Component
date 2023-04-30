@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Practice_Navigation_Component_Android_Jetpack</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_roro">Hello RoRo</string>
+    <string name="try_again_and_never_lose_hope">Try again and never lose hope</string>
+    <string name="remember_the_previous_one">Remember the previous One</string>
+    <string name="congratulations_roro">Congratulations RoRo...weeeeeeeee</string>
+    <string name="go_to_b">Go to B</string>
+    <string name="go_to_c">Go to C</string>
+    <string name="go_to_d">Go to D</string>
+    <string name="back_to_c">Back to C</string>
+</resources>
