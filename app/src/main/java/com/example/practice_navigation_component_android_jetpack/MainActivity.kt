@@ -6,6 +6,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.navigation.Navigation
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
+import androidx.navigation.ui.navigateUp
 import com.example.practice_navigation_component_android_jetpack.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -24,4 +25,11 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.fragment_host)
         NavigationUI.setupActionBarWithNavController(this, navController)
     }
+
+    override fun onSupportNavigateUp(): Boolean {
+        val navController = findNavController(R.id.fragment_host)
+        navController.navigateUp()
+        return true
+    }
+
 }
