@@ -13,6 +13,10 @@
         <action
             android:id="@+id/action_AFragment_to_BFragment"
             app:destination="@id/BFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"
             app:popUpTo="@id/AFragment" />
         <action
             android:id="@+id/action_AFragment_to_CFragment"
@@ -27,6 +31,10 @@
         <action
             android:id="@+id/action_BFragment_to_CFragment"
             app:destination="@id/CFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out"
             app:popUpTo="@id/BFragment" />
     </fragment>
     <fragment
@@ -37,6 +45,10 @@
         <action
             android:id="@+id/action_CFragment_to_DFragment"
             app:destination="@id/DFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@anim/custom_transition"
             app:popUpTo="@id/CFragment" />
     </fragment>
     <fragment
